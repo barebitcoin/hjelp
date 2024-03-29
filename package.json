@@ -1,0 +1,29 @@
+{
+  "name": "bb-docs",
+  "private": true,
+  "engines": {
+    "node": "21.x"
+  },
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start",
+    "prettier": "prettier . -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "prettier": "^3.2.5",
+    "typescript": "^4.9.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

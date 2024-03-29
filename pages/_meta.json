@@ -1,0 +1,17 @@
+{
+  "index": "Introduksjon",
+  "bitcoin": "Generelt om bitcoin",
+  "bb": "Vekslingstjenesten Bare Bitcoin",
+  "about": {
+    "title": "Om oss",
+    "type": "page",
+    "href": "https://barebitcoin.no/om-oss",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Twitter ↗",
+    "type": "page",
+    "href": "https://twitter.com/barebitcoin",
+    "newWindow": true
+  }
+}
