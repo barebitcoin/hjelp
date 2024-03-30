@@ -1,0 +1,33 @@
+name: Build docs website
+
+on:
+  pull_request:
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Cache node modules and next folder
+      - name: 📬 Caching
+        uses: actions/cache@v4
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock') }}
+
+      - name: Use Node.js LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+
+      - name: 🧰 Install dependencies
+        run: yarn install
+
+      - name: 📦 Build project
+        run: yarn build
+
+      - name: Check formatting
+        run: yarn run prettier --check
