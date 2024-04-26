@@ -42,9 +42,9 @@ const config: DocsThemeConfig = {
           content="https://barebitcoin.no/social-logo.png"
         />
 
-        <Script src="https://sa.bb.no/latest.js" />
+        <script src="https://sa.bb.no/latest.js" />
         {/* https://docs.simpleanalytics.com/automated-events */}
-        <Script src="https://sa.bb.no/auto-events.js" />
+        <script src="https://sa.bb.no/auto-events.js" />
         <noscript>
           {/* eslint-disable @next/next/no-img-element */}
           <img
