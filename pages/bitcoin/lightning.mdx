@@ -1,0 +1,68 @@
+---
+title: Lightning
+---
+
+import { Callout } from "nextra/components";
+
+# Hva er Lightning?
+
+Lightning (også kalt _Lightning-nettverket, Lightning Network_) er et
+betalingsnettverk som gjør det mulig å sende og motta bitcoin til veldig lave
+kostnader, raskere enn vanlige bitcoin-transaksjoner.
+
+Om du gjennomfører en "ordinær" transaksjon på bitcoin-blokkjeden tar dette
+forholdsvis lang tid, og kan fra tid til annen innebære store kostnader. Dette
+er fordi blokkjeden har en treg oppdateringsmekanisme, og relativt lav kapasitet
+for å gjennomføre transaksjoner. Oppdateringer (nye blokker) skjer i snitt hvert
+tiende minutt. Kostnadene kan variere veldig, fra noen få, til i verste fall
+hundrevis av kroner.
+
+Lightning-nettverket er én løsning på dette. Ved å bruke Lightning kan du
+gjennomføre transaksjoner _uten å bruke bitcoin-blokkjeden_. Transaksjoner tar
+noen få sekunder, og koster gjerne kun noen få øre.
+
+## Hvordan fungerer Lightning?
+
+## Hvilke apper støtter Lightning?
+
+Det er stadig flere og flere apper og tjenester som støtter Lightning, men ennå
+ikke alle. Her er en ikke-fullstendig liste over bitcoin- og
+kryptovalutatjenester som støtter sending og mottak med Lightning:
+
+- Binance - verdens største kryptobørs. Les mer på Binance sine
+  [hjelpesider](https://www.binance.com/en/support/faq/how-to-use-the-bitcoin-lightning-network-to-deposit-and-withdraw-btc-on-binance-7a4eb2d9ccaf4433908b448aa3a93493)
+- Kraken - amerikansk kryptobørs. Les mer på Kraken sine
+  [hjelpesider](https://support.kraken.com/hc/en-us/articles/5068216131988-How-do-I-send-bitcoin-on-the-Lightning-Network-)
+
+### Lommebøker uten egne nøkler
+
+Dessverre er størsteparten av bruken av Lightning gjennom lommebøker hvor
+brukeren ikke sitter på sine egne nøkler. Dette betyr at du ikke har fullstendig
+kontroll på egne midler, og er nødt til å stole på en tredjepart. Når det er
+sagt, så kan disse tredjepartene tilby veldig gode tjenester med en fin
+brukeropplevelse. Du vil også være kompatibel med alle andre som bruker
+Lightning, helt uavhengig av om de sitter på sine egne nøkler eller ikke.
+
+- Bare Bitcoin  
+  [Bare Bitcoin-appen](https://bb.no/app) har som eneste norske
+  vekslingstjeneste støtte for Lightning. Du kan sende og motta bitcoin, og du
+  betaler kun en veldig lav nettverksavgift på noen få øre. Du kan også opprette
+  en helt egen [Lightning-adresse](/bb/lightningadresse.mdx) 👀
+- [Wallet of Satoshi](https://www.walletofsatoshi.com/) . Wallet of Satoshi
+  (WoS) er den mest brukte Lightning-lommeboka. Den er utviklet og drevet av et
+  australsk firma.
+
+### Lommebøker med egne nøkler
+
+<Callout>
+  Det å bruke Lightning med egne nøkler er i utgangspunktet ikke noe vi
+  anbefaler nybegynnere å forsøke seg på. Brukeropplevelsen kan by på
+  utfordringer, særlig rundt å _motta_ bitcoin. Du kan også risikere å måtte
+  betale til dels høye avgifter om du får behov for å sende en transaksjon på
+  blokkjeden.
+</Callout>
+
+- [Phoenix](https://phoenix.acinq.co/)  
+  Utviklet av [Acinq](https://acinq.co/), som også deltar i utviklingen av selve
+  Lightning-nettverket.
+- [Breez](https://breez.technology/mobile/)
