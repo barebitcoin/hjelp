@@ -2,6 +2,13 @@
 title: Avansert handel
 ---
 
+import Image from "next/image";
+import AvansertHandel from "../../public/avansert-handel.png";
+
+I Bare Bitcoin kan du velge mellom å handle umiddelbart til gjeldende kurs
+(markedsordre), eller ha mer kontroll over kursen med en limitordre, der du selv
+setter kursen.
+
 # Avansert handel
 
 Den vanligste måten å handle på i Bare Bitcoin er å kjøpe eller selge bitcoin
@@ -12,12 +19,17 @@ utføres kan du bruke den mer avanserte varianten _limitordre_. Der setter du
 selv kursen du vil handle til, og ordren blir kun utført om kursen når det
 nivået.
 
+Du finner avansert handel helt nederst på Hjem-skjermen, under _Andre
+handlinger_.
+
+<Image src={AvansertHandel} alt="Avansert handel hos Bare Bitcoin" />
+
 ## Limit-kjøp
 
 Med limit-kjøp kan du _kjøpe_ bitcoin til den kursen du selv ønsker. La oss si
 at bitcoin-kursen er på 750 000 kr. Om du tror bitcoin skal falle, kan du legge
-inn en kjøpsordre på 700 000 kr. Om bitcoin på noe som helst tidspunkt faller
-under det nivået, kjøper du bitcoin til kursen du selv valgte.
+inn en kjøpsordre på 700 000 kr. Dersom bitcoin-kursen faller under dette
+nivået, kjøper du bitcoin til kursen du selv valgte.
 
 ## Limit-salg
 
@@ -44,3 +56,28 @@ vi ikke rekker å få utført ordren din, før kursen beveger seg bort igjen.
 ## Er det ekstra avgifter på avansert handel?
 
 Nei! Du betaler akkurat det samme som du ville gjort med en vanlig markedsordre.
+
+## Får ordren min slippage?
+
+Det er ingen slippage på noen handler hos Bare Bitcoin. Hverken ved markedsordre
+eller limitordre.
+
+## Hva betyr _bid_, _ask_ og _mid_?
+
+Det refererer til ulike bitcoin-kurser du blir presentert i appen.
+
+- Bid: _salgsprisen_ akkurat nå, det vil si prisen du får om du gjennomfører et
+  markedssalg. "Bid" er engelsk, og kan oversettes til "bud" - hva vi _byr_ deg
+  om du vil selge oss bitcoin.
+
+- Ask: _kjøpsprisen akkurat nå, det vil si prisen du får du om gjennomfører et
+  markedskjøp. "Ask" er også engelsk, og kan oversettes til "krav" - hva vi
+  \_krever_ av deg om du kjøpe bitcoin av oss.
+
+- Mid: midtprisen, som ligger midt i mellom ask og bid.
+
+Når du gjennomfører en handel på Bare Bitcoin sørger vi for å gjennomføre
+tilsvarende handler andre steder, for å skaffe bitcoin/kroner til deg. Disse
+andre handelspartnerene opererer med prisdifferanse mellom bid og ask, en såkalt
+_spread_. Forskjellen vår mellom _bid_ og _ask_ er akkurat den samme som vi får
+hos våre handelsmotparter, og sendes rett videre til deg.
