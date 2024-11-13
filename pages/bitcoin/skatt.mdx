@@ -1,17 +1,63 @@
-Benjamin Franklin sa en gang at det bare er to sikre ting i livet: død og skatt.
-Fortsatt har han helt rett. Gevinst og formue i bitcoin må skattes av.
+---
+title: Skatt
+---
 
-### Gevinst og tap
+import Image from "next/image";
+import Betaling from "../../public/betaling.png";
+
+I norske skatteregler regnes bitcoin som et formuesobjekt. Det betyr at du må
+skatte av gevinst, at du kan få fradrag for tap, og at verdien av bitcoinene
+dine teller med i beregningen av eventuell formueskatt. I motsetning til
+investeringer i aksjer eller fond kommer informasjon om bitcoin ikke automatisk
+inn på skattemeldingen din. Det må du selv sørge for å gjøre. Bare Bitcoin gir
+deg gode og enkle verktøy for å sikre at dette blir korrekt.
+
+Skatteetaten har flere sider om dette:
+
+- [Generell hjelpeartikkel](https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/bransjer-med-egne-regler/internett/skatt-mva-virtuell-valuta/).
+- [Oversiktsside om ulike temaer](https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/aksjer-og-verdipapirer/om/virtuell-valuta/)
+
+De jobber også med systemer for automatisk innrapportering av skatt, som ser ut
+til å komme i løpet av 2025.
+
+Vi anbefaler at du bruker [Kryptosekken](https://kryptosekken.no) til å regne ut
+riktige tall til skattemeldingen. Kryptosekken er en norsk tjeneste som lar deg
+regne ut korrekt skatt på aktivitet med bitcoin og kryptovaluta. Om du har under
+100 transaksjoner (kjøp, salg, innskudd, uttak) er Kryptosekken helt gratis å
+bruke. Kryptosekken har støtte for å hente ut transaksjonshistorikk Bare
+Bitcoin-kontoen din automatisk.
+
+# Gevinst og tap
 
 Bitcoin anses som et formuesobjekt. Det vil si du må skatte av gevinst/tap når
 du selger bitcoin, eller bruker det til å betale for noe. Skatteprosenten per i
 dag er 22%.
 
-### Formue
+Gevinst eller tap beregnes slik:
+
+- Gevinst = salgspris - kjøpspris
+- Tap = kjøpspris - salgspris
+
+Det er viktig å være klar over at også følgende regnes som realisasjon:
+
+- Bytte av bitcoin mot andre kryptovalutaer
+- Kjøp av varer eller tjenester med bitcoin
+
+# Formue
 
 Fordi bitcoin er et formuesobjekt, må det legges inn i skattemeldingen din. Det
 gjøres ikke automatisk! Skatteetaten jobber med systemer for automatisk
 innrapportering, men de er ikke ferdige enda. Vi hjelper deg med å finne ut av
-verdiene på bitcoinene dine på nettsiden vår.
+verdiene på bitcoinene dine under seksjonen for
+[årsoppgaver](https://barebitcoin.no/innlogget/profil/oppgave) på profilsiden
+din.
 
-[Du kan lese enda mer her.](https://barebitcoin.no/blogg/skatt)
+# Betaling av varer og tjenester med bitcoin
+
+Om du betaler for varer eller tjenester med bitcoin, regnes dette som et salg av
+bitcoin. Dette er med andre ord noe som må inn i skattemeldingen. Når du gjør et
+uttak fra Bare Bitcoin har du mulighet for å huke av _"Uttaket er en betaling"_.
+Om du gjør det vil uttaket bli registrert som et salg, og skatteberegningen din
+vil bli korrekt.
+
+<Image src={Betaling} alt="Korrekt markering av uttak som betaling" />
