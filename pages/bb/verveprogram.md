@@ -10,7 +10,7 @@ du og den du inviterer din få bitcoin som takk for hjelpen.
 
 ## Hvordan funker det?
 
-1. Finn QR-kode og invitasjonskoden din i inviter fanen, denne ser du ved å trykke på 
+1. Finn QR-kode og invitasjonskoden din i inviter fanen, denne ser du  ved å trykke på 
 ''Se Invitasjonskoden min''
 
 2. Sqann QR-kode (Vervekode)
