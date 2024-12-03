@@ -1,5 +1,13 @@
 # Hjelpesider for bitcoin i Norge
 
+> Kom i gang:
+>
+> ```bash
+> $ yarn install
+> $ yarn dev
+> # Åpne nettleseren på http://localhost:3000
+> ```
+
 Dette prosjektet er hele Norges hjelpesider for bitcoin, med tilhørende hjelp
 for vekslingstjenesten Bare Bitcoin.
 
