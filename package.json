@@ -1,9 +1,6 @@
 {
   "name": "bb-docs",
   "private": true,
-  "engines": {
-    "node": "21.x"
-  },
   "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
