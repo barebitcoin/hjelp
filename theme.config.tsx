@@ -34,12 +34,12 @@ const config: DocsThemeConfig = {
         <meta
           // TODO: make this dynamic
           name="og:image" // Default image for ALL sites image
-          content="https://barebitcoin.no/social-logo.png"
+          content="https://barebitcoin.no/app-logo.png"
         />
 
         <meta
           name="twitter:image" // Twitter image
-          content="https://barebitcoin.no/social-logo.png"
+          content="https://barebitcoin.no/app-logo.png"
         />
 
         <noscript>
